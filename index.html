@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hazel – Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* === BODY STYLE === */
+    body#page1 {
+      background: radial-gradient(#1f2550, #0b0d1a);
+    }
+
+    /* === HEADER STYLE === */
+    header.site-header {
+      /* POSITIONING */
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    /* === FOOTER STYLE === */
+    footer.site-footer {
+      text-align: center;
+    }
+
+    /* === ID SELECTOR === */
+    h1#main-title {
+      margin: 12px;
+      font-size: 50px;
+    }
+
+    /* === CLASS TO PARAGRAPH === */
+    p.embedded {
+      color: #a9b8d6;
+    }
+
+    /* === CONTEXTUAL STYLE === */
+    .card-skills h3 {
+      font-size: 22px;
+      margin: 18px 0 10px;
+    }
+
+    .card-skills p {
+      font-size: 18px;
+      line-height: 1.9;
+      margin: 0 0 16px;
+      max-width: 500px;
+    }
+
+    .card-skills h2 {
+      font-size: 34px;
+      margin: 16px;
+    }
+  </style>
+</head>
+
+<body id="page1">
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="site-nav">
+      <div class="wrap">
+        <div class="nav-title">Hazel Portfolio</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="favourites.html">Favourites</a>
+          <a href="place.html">Places</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN PART -->
+  <main class="container fade-in">
+    <!-- TOP PART -->
+    <section class="top-part">
+      <!-- Photo card -->
+      <div class="photo-card">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Assets/avatar.jpeg" style="width:100%; height:100%; border-radius:30px;">
+            </div>
+            <div class="flip-card-back">
+              <h2>Benedictus Hazel Fraderic</h2>
+              <h3>Student ID: 14598128</h3>
+            </div>
+          </div>
+        </div>
+        <p><a class="button" href="mailto:hazel.fraderic@uts.edu.au">Email me!</a></p>
+      </div>
+
+      <!-- Introduction Card -->
+      <div class="card-introduction">
+        <h1 id="main-title">Hi, I'm Hazel.</h1>
+        <p class="introduction-text">
+          I’m a first-year student passionate about web design and building creative digital spaces. I enjoy
+          experimenting with layouts, colors, and typography to make websites both functional and visually engaging.
+          Whether it’s creating smooth navigation bars,
+          responsive layouts, or animated card flips, I love learning by doing and pushing myself to try new design
+          ideas. My curiosity and optimism drive me to keep exploring how web pages can be both simple and impactful.
+        </p>
+        <p class="funfact embedded">
+          Fun fact: Still
+          <span style="background:#27306b;padding:.1rem .35rem;border-radius:.3rem">searching</span>
+          for a fun fact, maybe that’s my fun fact.
+        </p>
+
+        <div class="card-quotes" style="margin-top:.8rem">
+          <h2>Quote I like</h2>
+          <div class="row" style="align-items:center">
+            <div class="col">
+              <img src="Assets/quote-card.gif" />
+            </div>
+            <div class="col">
+              <p class="quotes embedded">“Stay hungry, stay foolish.”</p>
+              <p class="embedded">— Steve Jobs —</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MIDDLE PART -->
+    <section class="middle-part">
+      <!-- Left column -->
+      <div class="left-col">
+        <!-- About -->
+        <section class="card-aboutme">
+          <h2 class="aboutme-title" style="margin: 0 0 10px; ">About Me</h2>
+          <p class="aboutme-text" style="line-height: 1.7; font-size:18px;">
+            <b>Ethnicity:</b> Indonesian. I’m proud of my heritage, and one place I’ve always wanted to visit is
+            <a href="https://www.bucketlistly.blog/posts/komodo-island-backpacking-guide"
+              style="color: #bfe0ff; text-decoration: underline;">Komodo Island</a>, home to
+            the famous Komodo dragons and stunning pink sand beaches. I haven’t been there yet, but it’s high on my
+            travel list.
+            I imagine the mix of rugged hills, clear water, and rare wildlife would feel like stepping into a completely
+            different world.
+          </p>
+        </section>
+
+        <!-- Education & Employment -->
+        <section class="card-eduployment">
+          <h2 class="title">Education & Employment</h2>
+
+          <details>
+            <summary>
+              <b>UTS — Diploma of Information Technology</b>
+              <span style="color: #a9b8d6;">(2025 – present · Sydney)</span>
+            </summary>
+            <p class="embedded">Studying IT with a focus on web design, gaining hands-on skills in HTML/CSS, responsive
+              layouts, and user-friendly page design.</p>
+          </details>
+
+          <details>
+            <summary>
+              <b>Freelance Web Design Projects</b>
+              <span style="color: #a9b8d6;">(2024 – present · Remote)</span>
+            </summary>
+            <p class="embedded">Created simple portfolio sites and blogs, practicing navigation menus, layouts, and
+              color schemes to improve readability and consistency.</p>
+          </details>
+
+          <details>
+            <summary>
+              <b>Junior Web Design Intern — Digital Creatives</b>
+              <span style="color: #a9b8d6;">(2023 – 2024 · Sydney)</span>
+            </summary>
+            <p class="embedded">Assisted in building and maintaining company websites, focusing on clean layouts,
+              styling consistency, and accessibility.</p>
+          </details>
+        </section>
+
+        <!-- Daily Life & Hobbies -->
+        <section class="card-hobbies">
+          <h2 class="title">Daily Life & Hobbies</h2>
+
+          <div class="hobby-list">
+            <div class="hobby-item">
+              <video controls muted playsinline preload class="media">
+                <source src="Assets/blender.mp4" type="video/mp4" />
+              </video>
+              <p class="hobby-text embedded">
+                <b>3D Modelling (Blender):</b> I design cinematic 3D scenes, like a fictional dynasty set high among
+                floating sky mountains.
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <video controls muted playsinline preload class="media">
+                <source src="Assets/hobbies.mp4" type="video/mp4" />
+              </video>
+              <p class="hobby-text embedded">
+                <b>Traveling:</b> I enjoy capturing my trips as short travel videos, focusing on small details and
+                moments.
+              </p>
+            </div>
+
+            <div class="hobby-item">
+              <video controls muted playsinline preload class="media">
+                <source src="Assets/arduino.mp4" type="video/mp4" />
+              </video>
+              <p class="hobby-text embedded">
+                <b>Play with Arduino:</b> I build interactive gadgets like my OLED keychain. It has simple animations
+                and reacts to button presses.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Right column -->
+      <div class="right-col">
+        <!-- Skills -->
+        <article class="card-skills">
+          <h2>Skills Spotlight</h2>
+
+          <h3>Unique skills I’ve learned</h3>
+          <p>
+            I’ve been exploring a mix of coding and design to see how they connect on the web. On the structural side, I
+            learned to build pages with clean HTML and style them with CSS, adding components like grids, cards, forms,
+            and navigation bars. I’ve also practiced building different layouts to make sure pages stay responsive and
+            easy to read on both phone and desktop. Along the way, I worked on small projects such as a personal
+            portfolio, a blog template, and a product showcase. These projects were not large, but they gave me
+            experience in planning features, fixing errors, and keeping the design consistent across pages.
+          </p>
+          <p>
+            I also experimented with typography, color schemes, and accessibility to see how design choices change the
+            way people interact with a site. Even small adjustments, like line spacing or contrast, made a noticeable
+            difference to the overall experience. I started learning animations and transitions too, adding hover
+            effects, flip cards, and smooth scrolling that made the pages feel more dynamic without needing JavaScript.
+            On the visual side, I created simple icons, banners, and logos using basic image editing and vector graphics
+            tools, which gave my sites a more personal look. Each project added something new to my skill set, from
+            working with flexbox layouts to applying semantic tags, and these lessons continue to help me design cleaner
+            and more engaging websites.
+          </p>
+          <h3>Unique skills I’m pursuing</h3>
+          <p>
+            In the future, I want to deepen my main area of study, which is web design and development, so I can apply
+            it directly in professional settings. My goal is to move beyond simple layouts and start building more
+            complex, functional websites with features like forms, galleries, and responsive grids that adapt to all
+            screen sizes. I plan to strengthen my understanding of clean code practices, accessibility, and maintainable
+            CSS structures, so my work can scale up and remain consistent.
+          </p>
+          <p>
+            Alongside technical coding, I also want to improve my design sense. Understanding typography hierarchy,
+            color
+            balance, and user interface flow. These visual skills will support my main focus, ensuring that every site I
+            create is not only functional but also appealing and user-friendly. For example, I’d like to design websites
+            that communicate brand identity clearly or provide smooth experiences for visitors.
+          </p>
+          <p>
+            My approach is to treat web design as a practical skill set, not just a hobby. That means applying it to
+            real scenarios, such as creating a client’s portfolio, building a small business site, or designing a
+            personal blog. Over time, I want my abilities to grow into a balanced mix of technical coding and creative
+            design, ready for professional and practical use in the web industry.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- BOTTOM PART -->
+    <!-- Fun Facts -->
+    <section class="bottom-part">
+      <article class="card-funfacts">
+        <h2 style="margin: 0 0 10px; font-size: 28px;">Fun Facts</h2>
+        <p>
+          I’ve always learned best by experimenting, and one of my habits is keeping short “learning logs” where I write
+          in plain language what I figured out each week. It started as a way to remember CSS tricks and layout fixes,
+          but it also motivates me by showing steady progress. In class, I used to stay quiet, but I now challenge
+          myself to ask at least one question per tutorial, even if it feels simple, and this has helped me catch
+          mistakes early and build confidence. Outside of study, I enjoy travelling, especially to nature spots like
+          parks, coastal paths, and mountain trails. I also spend time working on small Arduino
+          projects, wiring sensors or displays and coding sketches to create little interactive gadgets. Debugging these
+          sketches feels similar to fixing a broken layout, requiring patience and problem-solving. Another hobby of
+          mine is 3D design, where I model nature-inspired objects and experiment with light, shadow, and camera angles
+          to improve presentation. Even though these interests are different, they all connect back to design:
+          travelling trains me to notice details, Arduino teaches me to think logically, and 3D design sharpens my sense
+          of structure and composition. Together, they remind me that consistent, hands-on practice leads to meaningful
+          progress in both web design and life.
+      </article>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text">©Benedictus Hazel Fraderic<span style="opacity:.7"> - IWBS Assignments.</span></p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

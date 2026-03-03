@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hazel – Favorites</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* === BODY STYLE === */
+    body#page2 {
+      background: radial-gradient(#1f2550, #0b0d1a);
+    }
+
+    /* === HEADER STYLE === */
+    header.site-header {
+      /* POSITIONING */
+      position: sticky;
+      top: 0;
+      z-index: 12;
+    }
+
+    /* === FOOTER STYLE === */
+    footer.site-footer {
+      text-align: center;
+    }
+
+    /* === ID SELECTOR === */
+    h1#main-title {
+      margin: 0;
+      font-size: clamp(36px, 8vw, 72px);
+      line-height: 1.05;
+      font-weight: 800;
+      letter-spacing: 0.3px;
+    }
+
+    /* === CLASS TO PARAGRAPH === */
+    p.embedded {
+      color: #e3eaff;
+    }
+
+    /* === CONTEXTUAL STYLE === */
+    #page2 .top-part .title a {
+      text-decoration: none;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+      font-size: clamp(20px, 3.4vw, 28px);
+    }
+
+    .card p {
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body id="page2">
+  <!-- NAVIGATION -->
+  <header class="site-header">
+    <nav class="site-nav">
+      <div class="wrap">
+        <div class="nav-title">Hazel Portfolio</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="favourites.html">Favourites</a>
+          <a href="place.html">Places</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN PART -->
+  <main class="container fade-in">
+    <!-- TOP PART -->
+    <section class="top-part">
+      <div class="title">
+        <h1 id="main-title">Favourite Things & Activities</h1>
+        <h3>Click this to jump to <a href="#thing">Thing</a> or <a href="#activity">Activity</a> :)</h3>
+      </div>
+    </section>
+    <!-- MIDDLE PART -->
+    <section class="middle-part">
+      <div class="left-col">
+        <section class="first-favorite">
+          <article id="thing" class="card">
+            <div class="media">
+              <img
+                src="Assets/laptop.jpeg" style="margin-bottom: 25px;"/>
+              
+            </div>
+            <div class="body" style="padding: 18px"> <span class="title" style="font-size: 15px;">Favourite Thing</span>
+              <h2>My laptop </h2>
+              <p> Honestly, at first I didn’t really know what my favorite thing was. I kept thinking about it and
+                nothing came to mind right away. But then I realized that my favorite thing is actually something I use
+                every single day without even noticing how important it is, which is my laptop. It sounds simple, but
+                when I think about it, my laptop is the one thing that I can’t really live without. </p>
+              <p> My laptop is basically the center of everything I do. First of all, it’s for studying. I use it to
+                open lecture slides, read notes, and search for extra materials online. Whenever I have assignments, I
+                do everything on my laptop, whether it’s writing essays, making presentations, or working on group
+                projects with classmates. I also spend a lot of time on YouTube. Sometimes I watch tutorials to learn
+                new things, and other times I just watch random videos to relax and pass the time. </p>
+              <p>Of course, it’s not all about school. My laptop is also what I use to have fun. I play games when I’m
+                bored, watch movies when I want to chill, and listen to music whenever I need a break. On top of that, I
+                sometimes use it for personal projects, like editing videos, trying out coding, or just experimenting
+                with creative ideas. It feels like one device that can handle everything I need in a day, from being
+                productive to simply relaxing.</p>
+              <p> If you want to know more about my laptop, go ahead </p>
+              <a class="btn" href="https://youtu.be/GpyLbu5ozxw?si=-IvCtunArCzjkrhL" style="font-weight: bold;">My laptop ❤️ </a> </p>
+            </div>
+          </article>
+        </section>
+      </div>
+      <div class="right-col">
+        <section class="second-favorite">
+          <article id="activity" class="card">
+            <div class="media">
+              <img src="Assets/activity.jpeg" style="margin-bottom: 25px;">
+            </div>
+            <div class="body" style="padding: 18px"> <span class="title"  style="font-size: 15px;">Favourite Activity</span>
+              <h2>Travelling and Making Cinematic Videos</h2>
+              <p> I really enjoy traveling because it makes me feel calm and free. Daily life can get pretty repetitive,
+                so going to new places feels like hitting the reset button for my mind. I love exploring new areas,
+                trying different activities, and just experiencing a fresh vibe. For me, traveling isn’t only about
+                moving from one location to another, it’s about enjoying the atmosphere and finding peace while
+                discovering something different. </p>
+              <p> What makes traveling even more fun for me is creating cinematic content along the way. I like bringing
+                my camera or even just my phone to capture moments that tell a story. Things like slow-motion shots,
+                golden sunsets, or little details that most people might not notice. Those small things can look so much
+                more beautiful when filmed in a cinematic style. Later, when I edit the clips and add music, it feels
+                like I’m turning the trip into a short movie. Seeing the final video gives me a sense of satisfaction,
+                especially when it captures the vibe exactly how I felt it.</p>
+              <p>Another reason I love traveling and making cinematic videos is because it’s the best way to keep
+                memories alive. Photos are nice, but videos feel more alive, you can see and feel the atmosphere again
+                when you watch them later. Plus, I enjoy sharing them with friends or on social media so others can
+                “travel” with me through the video. Sometimes people even get inspired to visit those places themselves.
+                In the end, traveling helps me stay relaxed, and making cinematic videos makes the whole experience even
+                more meaningful and exciting.</p>
+              <p> Here is a cinematic video that i want to make <br> <a class="btn"
+                  href="https://www.tiktok.com/@jacksonmaherr/video/7527765700744695054?q=roses%20cinematic&t=1755922310246" style="font-weight: bold;">Cinematic
+                  Video</a> </p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text">©Benedictus Hazel Fraderic<span style="opacity:.7"> - IWBS Assignments.</span></p>
+    </div>
+  </footer>
+</body>
+
+</html>
