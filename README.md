@@ -10,6 +10,16 @@ This project is intended as a design and layout concept for a developer portfoli
 
 ---
 
+## ⚠ Disclaimer
+
+This project is a portfolio website concept created for learning and demonstration purposes.
+
+Some content displayed in the website such as projects, descriptions, or personal information may be placeholders or fictional examples used to simulate a realistic developer portfolio layout.
+
+The purpose of this project is to practice front-end development and website structure rather than represent a fully authentic portfolio.
+
+---
+
 ## 🛠 Technologies Used
 
 - HTML5  
